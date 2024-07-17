@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Next.jsのpages/apiを使う場合は、ホストマシンへの転送をやめておく必要がある
   async rewrites() {
     return [
       {
